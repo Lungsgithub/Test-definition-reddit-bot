@@ -2,11 +2,11 @@ import praw
 
 definition = "Testing is a procedure intended to ensure quality, performance or reliability"
 
-reddit = praw.Reddit(client_id = "I_U1nn1cRgYpUwDnOhllKg",
-                     client_secret ="Vvp53u1K8S_lnwqsEg-_NcKC-qf0vg",
-                     user_agent = "console:Portfolio:1.0",
-                     username = "bot_for_portfolio" ,
-                     password = "U6xHiXTL7k49QHG")
+reddit = praw.Reddit(client_id = "add your own here",
+                     client_secret ="add your own here",
+                     user_agent = "add what you want here",
+                     username = "add your own here" ,
+                     password = "add your own here")
 
 subreddit = reddit.subreddit("testingground4bots")
 
